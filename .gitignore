@@ -1,0 +1,29 @@
+# .gitignore for Streamlit app developed using PyCharm
+
+# IDE - PyCharm
+.idea/
+
+# Python
+*.py[cod]
+*.venv
+*.virtualenv
+__pycache__/
+*.py,cover
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+streamlit/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Others
+*.log
+*.sql
+*.sqlite
